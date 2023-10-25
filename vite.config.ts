@@ -5,7 +5,7 @@ import react from "@vitejs/plugin-react-swc";
 export default defineConfig({
   plugins: [react()],
   //automatic imports
-  esbuild: {
-    jsxInject: `import React from 'react'`,
-  },
+  // esbuild: {
+  //   jsxInject: `import React from 'react'`,
+  // },
 });
